@@ -1,0 +1,79 @@
+//scss 公共的样式代码
+//定义色调
+//变量$color1:
+$borderSize:.02rem;
+$size30:.3rem;
+$size33:.33rem;
+$size34:.34rem;
+$size24:.24rem;
+$size22:.22rem;
+$size26:.26rem;
+$size32:.32rem;
+$size28:.28rem;
+//背景颜色
+$bgf7: #f7f7f7;
+$bgf:#fff;
+$bgf2:#f2f2f2;
+$bgm:#ff005d;
+
+$bg1:#FF005D;
+
+//字体颜色
+$colorf:#fff;
+$colordc:#dcdcdc;
+$color33:#333;
+$color66:#666;
+$color-main:rgb(73,115,201);
+$color99:#999;
+$colorm:#ff005d;
+//重用 比如flex布局 用的话@include flex-row;
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.kong{
+  height:.2rem;
+  width:100%;
+}
+////公共的头部
+//.head{
+//  height:.85rem;
+//  line-height:.85rem;
+//  text-align: center;
+//  font-size: $size33;
+//  background: $bgf;
+//  position: relative;
+//  img{
+//    position: absolute;
+//    left:.4rem;
+//    top:.28rem;
+//    width:.28rem;
+//    height:.28rem;
+//  }
+//  img.screen{
+//    right:.4rem;
+//    left:auto;
+//    width:.38rem;
+//    height:.38rem;
+//    top:.23rem;
+//  }
+//}
+//.head-spe{
+//  border-bottom:1px solid $colordc;
+//}
+////个人中心按钮
+//.msg-btn{
+//  width:6.5rem;
+//  height:.8rem;
+//  text-align: center;
+//  line-height: .8rem;
+//  font-size: $size34;
+//  color:$colorf;
+//  border-radius:.12rem;
+//  background: $color-main;
+//  margin-left:.5rem;
+//}
