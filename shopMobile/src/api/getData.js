@@ -1,11 +1,14 @@
 import axios from 'axios'//引入axios
+// 测试的
 const defaulturl = "http://localhost/mySelfShop/tt/thinkphp5/public/";//定义接口公共的前半部分地址
+// 正式的
+//const defaulturl = "http://www.zliel.top/thinkphp5/public/";//定义接口公共的前半部分地址
 import qs from 'qs';
 import store from '../store/index'
 import router from '../router'
 import { Toast } from 'mint-ui';
 // 请求超时时间
-axios.defaults.timeout = 10000;
+axios.defaults.timeout = 50000;
 
 // post请求头
 

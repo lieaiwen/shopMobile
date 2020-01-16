@@ -98,8 +98,9 @@
                           })
                           localStorage.setItem('token',res.data.token)
                           this.$router.push({path:'/index' })
+                          return;
                             if(that.redirect){ //存在就 返回不存在就进入首页
-                              this.$router.go(-2);
+                              this.$router.go(-1);
                             }else{
                               this.$router.push({path:'/index' })
                             }
